@@ -1,0 +1,1 @@
+export {ContactLoad as Contact} from './Contact.load'

@@ -1,0 +1,97 @@
+{
+    "Header":{
+        "Home":"Home",
+        "Services":"Services",
+        "Our Work":"Our Work",
+        "Blog":"Blog",
+        "About Us":"About Us"
+    },
+    "main":{
+        "title":"The Future is still on the web",
+        "subtitle":"BUILD YOUR DREAM",
+        "description":"Work with us and make reality all your bussiness dream come true.",
+        "buttonContact":"Let's talk",
+        "titleTwo":"Looking for VR training application",
+        "subtitleTwo":"WE CAN MAKE IT",
+        "descriptionTwo":"Work with us and make reality all your training app to improve your bussiness.",
+        "buttonContactTwo":"Let's talk"
+    },
+
+    "titleSections":{
+        "title":"Take full control of your businnes" ,
+        "subtitle":"Share your ideas with us, and we can make your bussines shine on the web, we work with the last of the web app tecnology"
+
+    },
+    "WebSection":{
+        "title":"Web App Development",
+        "description":"Throughout the process of creating a web page, it is important to consider user experience, accessibility, and performance. By following best practices and staying up-to-date with web development technologies and trends, you can create a high-quality web page that meets the needs of your audience and achieves your goals.",
+        "card1":"We work with the last web applications technology",
+        "card2":"We always work with [https] protocols for your security",
+        "card3":"We make all our experiences responsive (web/mobile)",
+        "card4":"We will make for you, support of your web app"
+    },
+    "VRSection":{
+        "title":"VR Training Experiences",
+        "description":"The process of creating VR training experiences, it is important to consider factors such as user experience, learning effectiveness, and technological advancements. By following best practices and staying up-to-date with VR development technologies and trends,",
+        "card1":"We work with the last game engines right now",
+        "card2":"We always work with [https] protocols for your security",
+        "card3":"We work with the last web applications technology",
+        "card4":"We will make for you, support of your web app"
+    },
+    "AnimationSection":{
+        "title":"3D Modeling/Animations ",
+        "description":"For 3D animations, it's important to consider factors such as the quality of the animation, the realism of the visuals, and the overall user experience. By following best practices and staying up-to-date with animation technologies and trends, we can create stunning and captivating 3D animations that meet your needs and help you achieve your creative goals.",
+        "card1":"We work with the last version of 3D modeling software applications",
+        "card2":"We always work with [https] protocols for your security",
+        "card3":"We work on our 3D models professionally.",
+        "card4":"We make the most reallistic movement animations"
+    },
+
+    "FirstSection":{
+        "title":"Let us show you some of our projects",
+        "card1":"E-commerce",
+        "card2":"bussines Web App",
+        "card3":"VR/AR training experiences "
+    },
+    
+    "AboutUs":{
+        "title":"About us",
+        "profile1":"Andres Guillermo Gomez Garzon",
+        "profession1":"Multimedia Engineer",
+        "description1":"The process of creating VR training experiences, it is important to consider factors such as user experience, learning effectiveness, and technological advancements",
+        "profile2":"Juan Pablo Cedeño Caideo",
+        "profession2":"Multimedia Engineer",
+        "description2":"The process of creating VR training experiences, it is important to consider factors such as user experience, learning effectiveness, and technological advancements"
+    },
+    "timeline":{
+        "title1":"2020",
+        "description1":"We started independent development work while we were still students, improving our knowledge along the way",
+        "title2":"2022",
+        "description2":"We had the opportunity to showcase VR/AR educational experiences at Colombia 4.0 through a client",
+        "title3":"2023",
+        "description3":"We formalized the company, aiming to surpass our previous achievements and reach new goals"
+    },
+    "ourclients":{
+        "title":"Our Clients"
+    },
+    "preContact":{
+        "title":"Let´s build something great!",
+        "description":"We are always avaliable to talk with you",
+        "Button":"Let´s talk"
+    },
+    "Contact":{
+        "title":"Contact Us",
+        "description":"Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
+        "email":"Your email",
+        "emailDescription":"Hextech@gmail.com",
+        "Subject":"Subject",
+        "SubjectDescription":"Lets us know how we can help you",
+        "message":"Your message",
+        "messageDescription":"Leave a comment...",
+        "ButtonSend":"Send message"
+    },
+    "Footer":{
+        "title":"Copyright © 2023 Hextech | All rights reserved"
+    }
+}
+

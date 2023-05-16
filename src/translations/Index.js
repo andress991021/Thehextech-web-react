@@ -1,0 +1,1 @@
+export {i18next as Traductions} from './Translations'
