@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button,Card } from "../../components";
+import { Button,Card,ChatBot } from "../../components";
 import { useTranslation } from "react-i18next";
 import imagen from "../../assets/Header.jpg";
 import Ecommerce from "../../assets/Ecommerce.svg";
