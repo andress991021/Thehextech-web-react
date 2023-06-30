@@ -1,81 +1,71 @@
 import React from "react";
-import { Button } from "../../components";
 import { useTranslation } from "react-i18next";
+
+//Icons
+import iconWeb1 from "../../assets/ServicesDeveloper/Icon1.svg";
+import iconWeb2 from "../../assets/ServicesDeveloper/Icon2.svg";
+import iconWeb3 from "../../assets/ServicesDeveloper/Icon3.svg";
+import iconWeb4 from "../../assets/ServicesDeveloper/Icon4.svg";
+import ImageWeb from "../../assets/ServicesDeveloper/imageWeb.svg";
 
 export const SectionDeveloper = () => {
 
     const{t} = useTranslation();
+
     return( 
-        <div className=" pb-10  ">
-            <div className="bg-gray-800 bg-opacity-100 px-5 sm:px-10 md:px-16 lg:px-20 py-5">
-                <h1 className="text-3xl xl:text-5xl font-medium lg:mt-10 text-center lg:mx-20 tracking-tight  ">{t("titleSections.title")}</h1>
-                <h1 className="text-base sm:text-xl my-5 text-center px-2 sm:px-10 md:px-20 xl:px-60 font-extralight tracking-tight">{t("titleSections.subtitle")}</h1>                   
+        <section className="bg-ServicesWeb bg-fixed ">
+            <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+                {/*SECTION1*/}
+                <img className="w-full order-1 md:order-1" src={ImageWeb} alt=""/>
+                <div className="mt-4 md:mt-0 order-2 md:order-2">
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">{t("WebSection.title")}</h2>
+                    <p className="mb-6 font-normal md:text-lg text-white">{t("WebSection.description")}</p>
+                    <div className="grid grid-cols-1 md:grid-cols-2  gap-2  ">
+                        <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
+                            <img src={iconWeb1} alt="" className="w-10 mr-2" />
+                            <p className=" font-light md:text-lg text-white">{t("WebSection.card1")}</p>
+                        </div>
+                        <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
+                            <img src={iconWeb2} alt="" className="w-10 mr-2" />
+                            <p className=" font-light md:text-lg text-white">{t("WebSection.card2")}</p>
+                        </div>
+                        <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
+                            <img src={iconWeb3} alt="" className="w-10 mr-2" />
+                            <p className=" font-light md:text-lg text-white">{t("WebSection.card3")}</p>
+                        </div>
+                        <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
+                            <img src={iconWeb4} alt="" className="w-10 mr-2" />
+                            <p className=" font-light md:text-lg text-white">{t("WebSection.card4")}</p>
+                        </div>
+                    </div>
+                </div>
 
+                {/*SECTION2*/}
+                <img className="w-full mt-10 md:mt-0 order-3 md:order-4 " src={ImageWeb} alt=""/>
+                <div className="mt-4 md:mt-0 order-4 md:order-3">
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">{t("WebSection.title")}</h2>
+                    <p className="mb-6 font-normal md:text-lg text-white">{t("WebSection.description")}</p>
+                    <div className="grid grid-cols-1 md:grid-cols-2  gap-2  ">
+                        <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
+                            <img src={iconWeb1} alt="" className="w-10 mr-2" />
+                            <p className=" font-light md:text-lg text-white">{t("WebSection.card1")}</p>
+                        </div>
+                        <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
+                            <img src={iconWeb2} alt="" className="w-10 mr-2" />
+                            <p className=" font-light md:text-lg text-white">{t("WebSection.card2")}</p>
+                        </div>
+                        <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
+                            <img src={iconWeb3} alt="" className="w-10 mr-2" />
+                            <p className=" font-light md:text-lg text-white">{t("WebSection.card3")}</p>
+                        </div>
+                        <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
+                            <img src={iconWeb4} alt="" className="w-10 mr-2" />
+                            <p className=" font-light md:text-lg text-white">{t("WebSection.card4")}</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            {/*--------------- WEB APP DEVELOPMENT --------------- */}
-            <div className="lg:flex lg:justify-around px-5 py-5  sm:px-10 md:px-16 lg:px-20 lg:my-10">
-                <div className="w-full text-center lg:text-left  sm:mx-5 lg:mx-10 lg:mr-20 order-1">
-                    <h1 className="text-3xl xl:text-4xl font-medium ">{t("WebSection.title")}</h1>
-                    <p className="text-base my-5 ps-2 font-extralight ">{t("WebSection.description")}</p>
-                    <div className="lg:flex lg:justify-between">
-                
-                        <div className="flex items-center bg-gray-800 bg-opacity-30 shadow-xl lg:w-1/2 p-5 rounded-2xl my-5 lg:mr-4 lg:my-0">
-                            <img className="w-12 lg:mr-4" src={iconWeb1} alt="" />
-                            <h1 className="font-medium text-sm text-white ">{t("WebSection.card1")}</h1>
-                        </div>
-                        <div className="flex items-center bg-gray-800 bg-opacity-30 shadow-xl lg:w-1/2 p-5 rounded-2xl my-5 lg:ml-4 lg:my-0">
-                            <img className="w-12 lg:mr-4" src={iconWeb2} alt="" />
-                            <h1 className="font-medium text-sm text-white ">{t("WebSection.card2")}</h1>
-                        </div>
-                    </div>
-                    <div className="lg:flex lg:justify-around mt-5"> 
-                        <div className="flex items-center bg-gray-800 bg-opacity-30 shadow-xl lg:w-1/2 p-5 rounded-2xl my-5 lg:mr-4 lg:my-0">
-                            <img className="w-12 lg:mr-4" src={iconWeb3} alt="" />
-                            <h1 className="font-medium text-sm text-white ">{t("WebSection.card3")}</h1>
-                        </div>
-                        <div className="flex items-center bg-gray-800 bg-opacity-30 shadow-xl lg:w-1/2 p-5 rounded-2xl my-5 lg:ml-4  lg:my-0 ">
-                            <img className="w-12 lg:mr-4" src={iconWeb4} alt="" />
-                            <h1 className="font-medium text-sm text-white ">{t("WebSection.card4")}</h1>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full order-2 ">
-                    <img className="w-full mx-auto rounded-2xl " src={ImageWeb} alt="" />
-                </div>
-            </div> 
-
-            {/*--------------- VR TRAINING EXPERIENCES --------------- */}
-            <div className="lg:flex lg:justify-around px-5 py-5  sm:px-10 md:px-16 lg:px-20 lg:my-10">
-
-                <div className="w-full text-center lg:text-left  sm:mx-5 lg:mx-10 lg:ml-20 order-2 ">
-                    <h1 className="text-3xl xl:text-4xl font-medium  ">{t("VRSection.title")}</h1>
-                    <p className="text-base my-5 ps-2 font-extralight ">{t("VRSection.description")} </p>
-                    <div className="lg:flex lg:justify-between">
-                        <div className="flex items-center bg-gray-800 bg-opacity-30 shadow-xl lg:w-1/2 p-5 rounded-2xl my-5 lg:mr-4 lg:my-0">
-                            <img className="w-12 lg:mr-4" src={iconRa1} alt="" />
-                            <h1 className="font-medium text-sm text-white ">{t("VRSection.card1")}</h1>
-                        </div>
-                        <div className="flex items-center bg-gray-800 bg-opacity-30 lg:w-1/2 p-5 rounded-2xl my-5 lg:ml-4 lg:my-0">
-                            <img className="w-12 lg:mr-4" src={iconRa2} alt="" />
-                            <h1 className="font-medium text-sm text-white">{t("VRSection.card2")}</h1>
-                        </div>
-                    </div>
-                    <div className="lg:flex lg:justify-around mt-5"> 
-                        <div className="flex items-center bg-gray-800 bg-opacity-30 shadow-xl lg:w-1/2 p-5 rounded-2xl my-5 lg:mr-4 lg:my-0">
-                            <img className="w-12 lg:mr-4" src={iconRa3} alt="" />   
-                            <h1 className="font-medium text-sm text-white ">{t("VRSection.card3")}</h1>
-                        </div>
-                        <div className="flex items-center bg-gray-800 bg-opacity-30 shadow-xl lg:w-1/2 p-5 rounded-2xl my-5 lg:ml-4  lg:my-0 ">
-                            <img className="w-12 lg:mr-4" src={iconRa4} alt="" />
-                            <h1 className="font-medium text-sm text-white ">{t("VRSection.card4")}</h1>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full order-1  ">
-                    <img className="w-full mx-auto rounded-2xl" src={ImageWeb2} alt="" />
-                </div>
-            </div>   
-        </div>
-    )
+        </section>
+    );
 }
 

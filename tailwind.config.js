@@ -5,21 +5,28 @@ export default {
     extend: {
       colors:{
         red:{
-          DEFAULT:'#B31942' //Color bandera Usa
+          DEFAULT:'#B31942' //Color Bandera Usa
         },
         yellow:{
-          DEFAULT:'#FFCD00', //Color bandera colombia
+          DEFAULT:'#FFCD00', //Color Bandera Colombia
         }
         ,
         blue:{
-          DEFAULT:'#003087', //Color bandera colombia
-          900:'#0A3161'//Color bandera Usa
+          DEFAULT:'#003087', //Color Bandera Colombia
+          900:'#0A3161'//Color Bandera Usa
+        },
+        gray:{
+          DEFAULT:'#020617',
+          900:'#111827',
+          400:'#9ca3af'
         }
       },
       backgroundImage:{
         'header':"url('/src/assets/Header.jpg')",
         'bannerWeb':"url('/src/assets/BannerWeb.jpg')",
-        'bannerRa':"url('/src/assets/BannerRa.jpg')"
+        'bannerRa':"url('/src/assets/BannerRa.jpg')",
+        'Services3D':"url(/src/assets/Services3D/Fondo.jpg)",
+        'ServicesWeb':"url(/src/assets/ServicesDeveloper/Fondo.jpg)" 
       }
     },
   },

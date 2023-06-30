@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../../components";
 import { useTranslation } from "react-i18next";
 
 export const SectionContact = () => {

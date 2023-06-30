@@ -38,6 +38,9 @@ export const Menu =({open,toggleOpen,...props}) =>{
                         <a className="ml-6 lg:ml-0 lg:text-center  my-auto text-4xl lg:text-lg font-medium text-white hover:text-cyan-500" href="/">{t("Header.Services")}</a>  
                     </li>
                     <li className="lg:flex justify-center items-center">
+                        <a className="ml-6 lg:ml-0 lg:text-center  my-auto text-4xl lg:text-lg font-medium text-white hover:text-cyan-500" href="/">{t("Header.Services")}</a>  
+                    </li>
+                    <li className="lg:flex justify-center items-center">
                         <a className="ml-6 lg:ml-0 lg:text-center my-auto text-4xl lg:text-lg font-medium text-white hover:text-cyan-500" href="/">{t("Header.Our Work")}</a>
                     </li>
                     <li className="lg:flex justify-center items-center">
