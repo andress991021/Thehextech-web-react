@@ -1,0 +1,1 @@
+export {FooterLoad as Footer} from './FooterLoad'
