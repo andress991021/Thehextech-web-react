@@ -8,14 +8,15 @@ import icon3D2 from "../../assets/Services3D/Icon2.svg";
 import icon3D3 from "../../assets/Services3D/Icon3.svg";
 import icon3D4 from "../../assets/Services3D/Icon4.svg";
 import Image3D from "../../assets/Services3D/image3D.svg";
+import Imagen from "../../assets/Services3D/imagen.png";
 export const Section3D = () => {
 
     const{t} = useTranslation();
     return( 
-        <section className="bg-Services3D bg-cover bg-fixed  bg-opacity-80">
+        <section className="bg-blue bg-cover bg-fixed  bg-opacity-80">
             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                 {/*SECTION1*/}
-                <img className="w-full order-1 md:order-1" src={Image3D} alt=""/>
+                <img className="w-full order-1 md:order-1" src={Imagen} alt=""/>
                 <div className="mt-4 md:mt-0 order-2 md:order-2">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold  text-white">{t("3DSection.title")}</h2>
                     <p className="mb-6 font-normal md:text-lg text-white">{t("3DSection.description")}</p>

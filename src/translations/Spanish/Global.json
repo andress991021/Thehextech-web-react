@@ -1,10 +1,10 @@
 {
     "Header":{
-        "Home":"Menu",
-        "Services":"Servicios",
-        "Our Work":"Nuestro Trabajo",
-        "Blog":"Blog",
-        "About Us":"Contactanos"
+        "Home":"MENU",
+        "Services":"SERVICIOS",
+        "Our Work":"NUESTRO TRABAJO",
+        "Blog":"BLOG",
+        "About Us":"CONTACTANOS"
     },
     "main":{
         "title":"El futuro sigue en la web",

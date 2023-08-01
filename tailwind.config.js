@@ -12,13 +12,13 @@ export default {
         }
         ,
         blue:{
-          DEFAULT:'#003087', //Color Bandera Colombia
-          900:'#0A3161'//Color Bandera Usa
+          DEFAULT:'#040E18', //Color Bandera Colombia
+          900:'#00C4F4'//Color Bandera Usa
         },
         gray:{
           DEFAULT:'#020617',
           900:'#111827',
-          400:'#9ca3af'
+          400:'#3A3838'
         }
       },
       backgroundImage:{

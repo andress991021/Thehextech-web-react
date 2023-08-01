@@ -1,10 +1,10 @@
 {
     "Header":{
-        "Home":"Home",
-        "Services":"Services",
-        "Our Work":"Our Work",
-        "Blog":"Blog",
-        "About Us":"About Us"
+        "Home":"HOME",
+        "Services":"SERVICES",
+        "Our Work":"OUR WORK",
+        "Blog":"BLOG",
+        "About Us":"ABOUT US"
     },
     "main":{
         "title":"The Future is still on the web",
