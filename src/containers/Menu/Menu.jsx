@@ -33,22 +33,23 @@ export const Menu =({open,toggleOpen,...props}) =>{
                 <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
                   <ul className="px-6 pt-32 text-gray-700 space-y-8  lg:space-y-0 lg:flex justify-start lg:space-x-14  lg:pt-0">
                     <li className="lg:flex justify-center items-center">
-                        <a className="ml-6 lg:ml-0 lg:text-center my-auto text-4xl lg:text-base font-bold text-white hover:text-cyan-500" href="/">{t("Header.Home")}</a>  
+                        <a className="ml-6 lg:ml-0 lg:text-center my-auto text-2xl lg:text-base font-bold text-white hover:text-cyan-500" href="/">{t("Header.Home")}</a>  
                     </li>
                     <li className="lg:flex justify-center items-center">
-                        <a className="ml-6 lg:ml-0 lg:text-center  my-auto text-4xl lg:text-base font-medium text-white hover:text-cyan-500" href="/">{t("Header.Services")}</a>  
+                        <a className="ml-6 lg:ml-0 lg:text-center  my-auto text-2xl lg:text-base font-medium text-white hover:text-cyan-500" href="/">{t("Header.Services")}</a>  
                     </li>
                     <li className="lg:flex justify-center items-center">
-                        <a className="ml-6 lg:ml-0 lg:text-center  my-auto text-4xl lg:text-base font-medium text-white hover:text-cyan-500" href="/">{t("Header.Services")}</a>  
+                        <a className="ml-6 lg:ml-0 lg:text-center  my-auto text-2xl lg:text-base font-medium text-white hover:text-cyan-500" href="/">{t("Header.Services")}</a>  
                     </li>
                     <li className="lg:flex justify-center items-center">
-                        <a className="ml-6 lg:ml-0 lg:text-center my-auto text-4xl lg:text-base font-medium text-white hover:text-cyan-500" href="/">{t("Header.Our Work")}</a>
+                        <a className="ml-6 lg:ml-0 lg:text-center my-auto text-2xl lg:text-base font-medium text-white hover:text-cyan-500" href="/">{t("Header.Our Work")}</a>
                     </li>
                     <li className="lg:flex justify-center items-center">
-                        <a className="ml-6 lg:ml-0 lg:text-center  py-auto flex items text-4xl lg:text-base font-medium  text-white hover:text-cyan-500" href="/">{t("Header.Blog")}</a>
+                        <a className="ml-6 lg:ml-0 lg:text-center  py-auto flex items text-2xl lg:text-base font-medium  text-white hover:text-cyan-500" href="/">{t("Header.Blog")}</a>
                     </li>
                     <li  className="lg:flex justify-center items-center">
-                        <a className=" my-auto lg:text-base font-medium   text-white hover:text-cyan-500" href="/Contact"><Button type="main" name={t("Header.About Us")} zize="text-4xl"/></a>
+                      <a className="my-auto font-medium text-white hover:text-cyan-500 hidden lg:block" href="/Contact"><Button type="main" name={t("Header.About Us")} zize="text-base"/></a>
+                        <a className="ml-6 my-auto font-medium   text-white hover:text-cyan-500 block lg:hidden" href="/Contact"><Button type="main" name={t("Header.About Us")} zize="text-2xl"/></a>
                     </li>
                   </ul>
                   <div className="py-8 px-6 md:px-12 md:py-16 lg:border-t-0 lg:border-l lg:py-0 lg:pr-0 lg:pl-2">

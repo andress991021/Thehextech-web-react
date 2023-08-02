@@ -18,7 +18,7 @@ export const Section3D = () => {
                 {/*SECTION1*/}
                 <img className="w-full order-1 md:order-1" src={Imagen} alt=""/>
                 <div className="mt-4 md:mt-0 order-2 md:order-2">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold  text-white">{t("3DSection.title")}</h2>
+                    <h2 className="mb-4 text-4xl text-center lg:text-left  font-bold  text-white">{t("3DSection.title")}</h2>
                     <p className="mb-6 font-normal md:text-lg text-white">{t("3DSection.description")}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2  gap-2  ">
                         <div className="flex items-center bg-white bg-opacity-30 shadow-xl p-5 rounded-2xl">
@@ -43,7 +43,7 @@ export const Section3D = () => {
                 {/*SECTION2*/}
                 <img className="w-full mt-10 md:mt-0 order-3 md:order-4 " src={Image3D} alt=""/>
                 <div className="mt-4 md:mt-0 order-4 md:order-3">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">{t("3DSection.title")}</h2>
+                    <h2 className="mb-4 text-4xl text-center lg:text-left  font-bold text-white">{t("3DSection.title")}</h2>
                     <p className="mb-6 font-normal md:text-lg text-white">{t("3DSection.description")}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2  gap-2  ">
                         <div className="flex items-center bg-white bg-opacity-30 shadow-xl p-5 rounded-2xl">

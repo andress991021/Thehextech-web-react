@@ -20,6 +20,13 @@ export const SectionOurWork = () => {
                     </form>
                 </div>
             </div>
+            <div className="flex justify-center px-2 md:px-5 lg:px-16">
+                <video className="w-full h-auto max-w-full border border-gray-400 rounded-lg dark:border-gray-70" controls>
+                    <source src="/videos/nombre_del_video.mp4" type="video/mp4" />
+                 
+                </video>
+            </div>
+            
         </section>
     )
 }
