@@ -13,7 +13,7 @@ export const SectionDeveloper = () => {
     const{t} = useTranslation();
 
     return( 
-        <section className="bg-ServicesWeb bg-fixed ">
+        <section className="bg-blue bg-fixed ">
             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                 {/*SECTION1*/}
                 <img className="w-full order-1 md:order-1" src={ImageWeb} alt=""/>

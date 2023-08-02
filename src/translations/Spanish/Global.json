@@ -1,20 +1,65 @@
 {
-    "Header":{
-        "Home":"Menu",
-        "Services":"Servicios",
-        "Our Work":"Nuestro Trabajo",
-        "Blog":"Blog",
-        "About Us":"Contactanos"
+    "Header": {
+        "Home": "MENU",
+        "Services": "SERVICIOS",
+        "Our Work": "NUESTRO TRABAJO",
+        "Blog": "BLOG",
+        "About Us": "CONTACTANOS"
     },
-    "main":{
-        "title":"El futuro sigue en la web",
-        "subtitle":"CONSTRUYE TU SUEÑO",
-        "description":"Trabaja con nosotros y haz realidad todo tu sueño empresarial.",
-        "buttonContact":"Hablemos",
-        "titleTwo":"Buscando una aplicación de entrenamiento VR",
-        "subtitleTwo":"LO PODEMOS HACER",
-        "descriptionTwo":"Trabaja con nosotros y haz realidad toda tu app de formación para mejorar tu negocio.",
-        "buttonContactTwo":"Hablemos"
+    "main": {
+        "title": "El futuro sigue en la web",
+        "subtitle": "CONSTRUYE TU SUEÑO",
+        "description": "Trabaja con nosotros y haz realidad todo tu sueño empresarial.",
+        "buttonContact": "Hablemos",
+        "titleTwo": "Buscando una aplicación de entrenamiento VR",
+        "subtitleTwo": "LO PODEMOS HACER",
+        "descriptionTwo": "Trabaja con nosotros y haz realidad toda tu app de formación para mejorar tu negocio.",
+        "buttonContactTwo": "Hablemos"
+    },
+    "WebSection": {
+        "title": "Desarrollo Aplicación Web",
+        "description": "En el proceso de creación de una página web, es importante considerar la experiencia del usuario, la accesibilidad y el rendimiento. Siguiendo las mejores prácticas y manteniéndose actualizado con las tecnologías y tendencias de desarrollo web, puede crear una página web de alta calidad que satisfaga las necesidades de su audiencia y logre sus objetivos.",
+        "card1": "Trabajamos con las últimas tecnologias web",
+        "card2": "Siempre buscamos tu seguridad, y para tu tranquilidad trabajamos con el protocolo [https]",
+        "card3": "Tu sueño hecho realidad, siempre estará disponible para cualquier dispositivo, (móvil/web)",
+        "card4": "Cubrimos el soporte técnico de tu página web"
+    },
+    "3DSection": {
+        "title": "Experiencias de entrenamiento VR",
+        "description": "En el proceso de creación de experiencias de entrenamiento en VR, es importante considerar factores como la experiencia del usuario, la efectividad del aprendizaje y los avances tecnológicos. Siguiendo las mejores prácticas y manteniéndose actualizado con las tecnologías y tendencias de desarrollo de VR.",
+        "card1": "Trabajamos con los últimos motores de desarrollo gráfico",
+        "card2": "Trabajamos de la mano de expertos en entrenamiento con realidad virtual",
+        "card3": "Para tu seguridad, realizamos entrega de documentación y capacitación del aplicativo",
+        "card4": "Contamos con el hardware necesario para el entrenamiento VR"
+    },
+    "3DSection2": {
+        "title": "Augmented Reality App Development",
+        "description": "En el proceso de creación de experiencias de entrenamiento en AR, es importante considerar factores como la experiencia del usuario, la efectividad del aprendizaje y los avances tecnológicos. Siguiendo las mejores prácticas y manteniéndose actualizado con las tecnologías y tendencias de desarrollo de VR.",
+        "card1": "Trabajamos con los últimos motores de desarrollo gráfico",
+        "card2": "Trabajamos de la mano de expertos con tracking y green screen",
+        "card3": "Para tu seguridad, realizamos entrega de documentación y capacitación del aplicativo",
+        "card4": "Contamos con el hardware necesario para el entrenamiento RA"
+    },
+    "ourclients": {
+        "title": "Our Clients"
+    },
+    "preContact": {
+        "title": "Let´s build something great!",
+        "description": "We are always avaliable to talk with you",
+        "Button": "Let´s talk"
+    },
+    "Contact": {
+        "title": "Contact Us",
+        "description": "Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
+        "email": "Your email",
+        "emailDescription": "Hextech@gmail.com",
+        "Subject": "Subject",
+        "SubjectDescription": "Lets us know how we can help you",
+        "message": "Your message",
+        "messageDescription": "Leave a comment...",
+        "ButtonSend": "Send message"
+    },
+    "Footer": {
+        "title": "Copyright © 2023 TheHextech | All rights reserved"
     }
-
 }
