@@ -1,7 +1,7 @@
 export const SendForm = async  (Nombre,Email,Telefono,Empresa,Mensaje) =>{  
 
 
-    return fetch('https://semillasrbc.com/formulario.php', { 
+    return fetch('https://thehextech.com/formulario.php', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

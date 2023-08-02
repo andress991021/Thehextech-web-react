@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Home } from "./Home";
-
+import { SendForm } from "../../Apis/SendForm";
 export const HomeLoad = () => {
 
     const [Nombre, setNombre] = useState('');
