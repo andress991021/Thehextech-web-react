@@ -70,19 +70,19 @@ export const Section3D = () => {
                 {t("3DSection2.card1")}
               </p>
             </div>
-            <div className="flex items-center bg-white bg-opacity-30 shadow-xl p-5 rounded-2xl">
+            <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
               <img src={icon3D2} alt="" className="w-10 mr-2" />
               <p className=" font-light md:text-lg text-white">
                 {t("3DSection2.card2")}
               </p>
             </div>
-            <div className="flex items-center bg-white bg-opacity-30 shadow-xl p-5 rounded-2xl">
+            <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
               <img src={icon3D3} alt="" className="w-10 mr-2" />
               <p className=" font-light md:text-lg text-white">
                 {t("3DSection2.card3")}
               </p>
             </div>
-            <div className="flex items-center bg-white bg-opacity-30 shadow-xl p-5 rounded-2xl">
+            <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
               <img src={icon3D4} alt="" className="w-10 mr-2" />
               <p className=" font-light md:text-lg text-white">
                 {t("3DSection2.card4")}
