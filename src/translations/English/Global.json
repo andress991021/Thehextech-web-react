@@ -1,7 +1,8 @@
 {
     "Header": {
         "Home": "HOME",
-        "Services": "SERVICES",
+        "ServicesWeb": "WEB SERVICES",
+        "Services3D": "3D SERVICES",
         "Our Work": "OUR WORK",
         "Blog": "BLOG",
         "About Us": "ABOUT US"

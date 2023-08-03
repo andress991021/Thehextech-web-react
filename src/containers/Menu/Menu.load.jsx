@@ -1,22 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Menu } from "./Menu";
 
-
-
-export const MenuLoad = ({...props}) => {
-
-    const [open, setOpen] = useState(false);  
-    const toggleOpen = () => {
-        setOpen(!open) 
-    };
-
-    return(
-        <Menu
-            open={open}
-            toggleOpen={toggleOpen}
-            {...props}
-        />
-    );
-
-
-}
+export const MenuLoad = ({ ...props }) => {
+  return <Menu {...props} />;
+};

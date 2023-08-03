@@ -1,15 +1,24 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-export const  ButtonMain = ({name,zize}) => {
-    
-    return(
-        <a href="#_" class="box-border relative z-30 inline-flex items-center justify-center w-auto px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-700 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none">
-        <span class="absolute bottom-0 right-0 w-8 h-20 -mb-8 -mr-5 transition-all duration-300 ease-out transform rotate-45 translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
-        <span class="absolute top-0 left-0 w-20 h-8 -mt-1 -ml-12 transition-all duration-300 ease-out transform -rotate-45 -translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
-        <span class="relative z-20 flex items-center text-base">
-        {name}
+export const ButtonMain = ({ name, rute }) => 
+{
+ 
 
-        </span>
-        </a>
-    )
-}
+  return (
+    <div>
+      <a
+        href={rute} 
+        className="cursor-pointer relative rounded text-sm lg:text-lg px-5 py-2.5 overflow-hidden group bg-green-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300"
+      >
+        {/*<span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>*/}
+        <span className="relative">{name}</span>
+      </a>
+    </div>
+  );
+};
+
+ButtonMain.propTypes = {
+  name: PropTypes.string.isRequired,
+  rute: PropTypes.string.isRequired,
+};

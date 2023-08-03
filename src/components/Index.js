@@ -1,5 +1,3 @@
 export {Button} from './Buttons'
-export {Card} from './Card'
-export {ChatBot} from './ChatBot'
 export {Footer} from './Footer'
 export {Toggle} from './Toggle'
