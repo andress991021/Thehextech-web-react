@@ -30,7 +30,7 @@ export const SectionContact = ({
             <input
               type="text"
               value={Nombre}
-              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border  shadow-sm   bg-brown-600  dark:placeholder-white   dark:shadow-sm-light"
+              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
               placeholder="Nombre*"
               onChange={(e) => setNombre(e.target.value)}
               required
@@ -40,7 +40,7 @@ export const SectionContact = ({
             <input
               type="email"
               value={Email}
-              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border  shadow-sm   bg-brown-600  dark:placeholder-white   dark:shadow-sm-light"
+              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
               placeholder="Correo Electronico*"
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -50,7 +50,7 @@ export const SectionContact = ({
             <input
               type="number"
               value={Telefono}
-              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border  shadow-sm   bg-brown-600  dark:placeholder-white   dark:shadow-sm-light"
+              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
               placeholder="Teléfono"
               onChange={(e) => setTelefono(e.target.value)}
             />
@@ -59,7 +59,7 @@ export const SectionContact = ({
             <input
               type="text"
               value={Empresa}
-              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border  shadow-sm   bg-brown-600  dark:placeholder-white   dark:shadow-sm-light"
+              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
               placeholder="Empresa"
               onChange={(e) => setEmpresa(e.target.value)}
             />
@@ -68,7 +68,7 @@ export const SectionContact = ({
             <textarea
               value={Mensaje}
               rows="6"
-              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border  shadow-sm   bg-brown-600  dark:placeholder-white   dark:shadow-sm-light"
+              className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
               placeholder="Message"
               onChange={(e) => setMensaje(e.target.value)}
             ></textarea>
