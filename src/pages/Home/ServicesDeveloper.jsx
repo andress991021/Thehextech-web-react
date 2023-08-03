@@ -6,7 +6,8 @@ import iconWeb1 from "../../assets/ServicesDeveloper/Icon1.svg";
 import iconWeb2 from "../../assets/ServicesDeveloper/Icon2.svg";
 import iconWeb3 from "../../assets/ServicesDeveloper/Icon3.svg";
 import iconWeb4 from "../../assets/ServicesDeveloper/Icon4.svg";
-import ImageWeb from "../../assets/ServicesDeveloper/imageWeb.svg";
+import ImageWeb from "../../assets/ServicesDeveloper/imageWeb.png";
+import ImageWeb2 from "../../assets/ServicesDeveloper/imageWeb2.png";
 
 export const SectionDeveloper = () => {
 
@@ -41,7 +42,7 @@ export const SectionDeveloper = () => {
                 </div>
 
                 {/*SECTION2*/}
-                <img className="w-full mt-10 md:mt-0 order-3 md:order-4 " src={ImageWeb} alt=""/>
+                <img className="w-full mt-10 md:mt-0 order-3 md:order-4 " src={ImageWeb2} alt=""/>
                 <div className="mt-4 md:mt-0 order-4 md:order-3">
                     <h2 className="mb-4 text-4xl text-center lg:text-left  font-bold text-gray-900 dark:text-white">{t("WebSection.title")}</h2>
                     <p className="mb-6 font-normal md:text-lg text-white">{t("WebSection.description")}</p>

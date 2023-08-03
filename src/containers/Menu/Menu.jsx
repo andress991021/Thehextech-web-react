@@ -12,7 +12,7 @@ export const Menu = ({ ...props }) => {
       <div className="h-screen  ">
         <header className=" ">
           <div className=" relative z-20 shadow-2x  ">
-            <div className="border-b border-b-gray-400">
+            <div className="border-b border-b-green">
               <div className="px-6 lg:container   lg:mx-auto  lg:py-6 w-full fixed z-10  lg:static bg-blue ">
                 <div className="flex items-center justify-between lg:justify-between">
                   <div className="relative z-20  ">
