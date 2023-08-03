@@ -1,1 +1,0 @@
-export {CardLoad as Card} from './Card.load'

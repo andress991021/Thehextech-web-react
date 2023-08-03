@@ -9,7 +9,7 @@ export const HomeLoad = () => {
     const [Empresa, setEmpresa] = useState('');
     const [Mensaje, setMensaje] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = () => {
         console.log('Formulario Enviado Correctamente');
         SendForm(Nombre,Email,Telefono,Empresa,Mensaje);
       };

@@ -17,16 +17,16 @@ export const  Footer = () => {
                             <a href="#" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500 ">{t("Header.Home")}</a>
                         </li>
                         <li className="lg:flex justify-center items-center">
-                            <a href="#" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.Services")}</a>
+                            <a href="#seccionWeb" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.ServicesWeb")}</a>
                         </li>
                         <li className="lg:flex justify-center items-center">
-                            <a href="#" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.Our Work")}</a>
+                            <a href="#seccion3D" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.Services3D")}</a>
                         </li>
                         <li className="lg:flex justify-center items-center">
-                            <a href="#" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.Blog")}</a>
+                            <a href="#seccionOurWork" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.Our Work")}</a>
                         </li>
                         <li className="lg:flex justify-center items-center">
-                            <a href="/Contact" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.About Us")}</a>
+                            <a href="#seccionContact" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.About Us")}</a>
                         </li>
                     </ul>
                 </div>

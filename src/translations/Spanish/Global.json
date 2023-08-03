@@ -1,7 +1,8 @@
 {
     "Header": {
         "Home": "MENU",
-        "Services": "SERVICIOS",
+        "ServicesWeb": "SERVICIOS WEB",
+        "Services3D": "SERVICIOS 3D",
         "Our Work": "NUESTRO TRABAJO",
         "Blog": "BLOG",
         "About Us": "CONTACTANOS"
