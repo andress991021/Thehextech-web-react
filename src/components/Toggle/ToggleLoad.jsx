@@ -4,7 +4,7 @@ import i18next from "../../translations/Translations"
 
 export const  ToggleLoad = () => {
 
-    const [isActive, setIsActive] = useState(false);
+    const [isActive, setIsActive] = useState(true);
 
     const handleToggle = () => {
       setIsActive(!isActive);

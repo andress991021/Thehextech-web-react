@@ -12,7 +12,7 @@ export const Menu = ({ ...props }) => {
       <div className="h-screen  ">
         <header className=" ">
           <div className=" relative z-20 shadow-2x  ">
-            <div className="border-b border-b-gray-400">
+            <div className="border-b border-b-green">
               <div className="px-6 lg:container   lg:mx-auto  lg:py-6 w-full fixed z-10  lg:static bg-blue ">
                 <div className="flex items-center justify-between lg:justify-between">
                   <div className="relative z-20  ">
@@ -49,17 +49,18 @@ export const Menu = ({ ...props }) => {
                     <div className="z-10 peer-checked:-translate-x-0 fixed inset-0 w-[calc(100%)] translate-x-[100%] bg-blue  shadow-xl transition duration-500 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0">
                       <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
                         <ul className="px-6 pt-32 text-gray-700 space-y-8  lg:space-y-0 lg:flex justify-start lg:space-x-14  lg:pt-0">
-                          <li className="lg:flex justify-center items-center">
+                          <li className="lg:flex justify-center items-center" >
                             <a
                               className="ml-6 lg:ml-0 lg:text-center my-auto text-2xl lg:text-base font-bold text-white hover:text-cyan-500"
                               href="/"
+                              
                             >
                               {t("Header.Home")}
                             </a>
                           </li>
-                          <li className="lg:flex justify-center items-center">
+                          <li className="lg:flex justify-center items-center " >
                             <a
-                              className="ml-6 lg:ml-0 lg:text-center  my-auto text-2xl lg:text-base font-medium text-white hover:text-cyan-500"
+                              className=" ml-6 lg:ml-0 lg:text-center  my-auto text-2xl lg:text-base font-medium text-white hover:text-cyan-500"
                               href="#seccionWeb"
                             >
                               {t("Header.ServicesWeb")}
@@ -67,7 +68,7 @@ export const Menu = ({ ...props }) => {
                           </li>
                           <li className="lg:flex justify-center items-center">
                             <a
-                              className="ml-6 lg:ml-0 lg:text-center  my-auto text-2xl lg:text-base font-medium text-white hover:text-cyan-500"
+                              className=" ml-6 lg:ml-0 lg:text-center  my-auto text-2xl lg:text-base font-medium text-white hover:text-cyan-500"
                               href="#seccion3D"
                             >
                               {t("Header.Services3D")}
@@ -81,11 +82,12 @@ export const Menu = ({ ...props }) => {
                               {t("Header.Our Work")}
                             </a>
                           </li>
-                          <li className="lg:flex justify-center items-center">
+                          <li className="lg:flex justify-center items-center ml-6 lg:ml-0">
                             <Button
                               type="main"
                               name={t("Header.About Us")}
                               rute="#seccionContact"
+                              size="text-2xl lg:text-lg"
                             />
                           </li>
                         </ul>

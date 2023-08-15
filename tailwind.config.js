@@ -19,6 +19,9 @@ export default {
           DEFAULT:'#020617',
           900:'#111827',
           400:'#3A3838'
+        },
+        green:{
+          DEFAULT:'#1C8C6E'
         }
       },
       backgroundImage:{
