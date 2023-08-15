@@ -18,16 +18,24 @@
         "buttonContactTwo": "Let's talk"
     },
     "WebSection": {
-        "title": "Web App Development",
-        "description": "Throughout the process of creating a web page, it is important to consider user experience, accessibility, and performance. By following best practices and staying up-to-date with web development technologies and trends, you can create a high-quality web page that meets the needs of your audience and achieves your goals.",
+        "title": "Web Development",
+        "description": "As experts in web development, our team has the experience and capability to provide a wide range of solutions, from conventional web pages to high-performance web applications. Our mission is to deliver quality digital products to our clients that enhance their online presence and enable them to achieve their business goals effectively. When it comes to conventional web pages, we take pride in creating elegant, functional, and highly responsive websites that offer an exceptional user experience.",
         "card1": "We work with the last web applications technology",
         "card2": "We always work with [https] protocols for your security",
-        "card3": "We make all our experiences responsive (mobile/web)",
+        "card3": "We make all our experiences responsive (mobile/desktop)",
+        "card4": "We will make for you, support of your web app"
+    },
+    "WebSection2": {
+        "title": "Web App Development",
+        "description": "As experts in web development, our team possesses the experience and capability to provide a wide range of solutions in the field of high-performance web applications. Our mission is to deliver quality digital products to our clients that enhance their online presence. We offer web applications for data collection, API consumption, databases, and real-time data retrieval. When it comes to web applications, we take pride in crafting elegant, functional, and highly responsive websites that offer an exceptional user experience.",
+        "card1": "We work with the last web applications technology",
+        "card2": "We always work with [https] protocols for your security",
+        "card3": "We make all our experiences responsive (mobile/desktop)",
         "card4": "We will make for you, support of your web app"
     },
     "3DSection": {
         "title": "VR Training Experiences",
-        "description": "The process of creating VR training experiences, it is important to consider factors such as user experience, learning effectiveness, and technological advancements. By following best practices and staying up-to-date with VR development technologies and trends.",
+        "description": "Virtual Reality (VR) training experiences are immersive, interactive simulations designed to provide users with a lifelike learning environment. Leveraging cutting-edge VR technology, we are committed to revolutionizing the way people learn and train by offering a wide range of Virtual Reality (VR) training experiences. Our immersive and interactive simulations are meticulously designed to provide users with lifelike learning environments that promote enhanced skill development, knowledge retention, and improved decision-making capabilities.",
         "card1": "We work with the latest game development engines",
         "card2": "We work hand in hand with expert engineers in virtual reality training",
         "card3": "For your safety, we give you the documentation and provide training on the use of the VR application",
@@ -35,30 +43,25 @@
     },
     "3DSection2": {
         "title": "Augmented Reality App Development",
-        "description": "In the process of creating AR training experiences, it is important to consider factors such as user experience, learning effectiveness and technological advances. Following best practices and staying up-to-date with AR development technologies and trends is key to success.",
+        "description": "Our team specializes in creating experiences of virtual scenarios and graphics in augmented reality (AR). In the realm of virtual scenarios, we create immersive and engaging environments that transport users to realistic and captivating virtual worlds. Whether it's for educational, entertainment, or simulation purposes.",
         "card1": "We work with the latest game development engines",
         "card2": "TWe work hand in hand with expert tracking engineers",
         "card3": "For your safety, we give you the documentation and provide training on the use of the AR application",
         "card4": "We have the necessary hardware for AR App Development"
     },
-    "ourclients": {
-        "title": "Our Clients"
-    },
-    "preContact": {
-        "title": "Let´s build something great!",
-        "description": "We are always avaliable to talk with you",
-        "Button": "Let´s talk"
+    "OurWork": {
+        "title":"Our Work",
+        "description":"We would like to show you our video reel showcasing the professional work we do at TheHextech. Enjoy it, and then contact us to discuss your dream and how we will make it a reality together. Besides, if you click the buttom, you will be able to download our portfolio of services.",
+        "buttonPortfolio":"Our Portfolio Services"
     },
     "Contact": {
-        "title": "Contact Us",
-        "description": "Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
-        "email": "Your email",
-        "emailDescription": "Hextech@gmail.com",
-        "Subject": "Subject",
-        "SubjectDescription": "Lets us know how we can help you",
+        "title": "Tell us about your dream idea:",
+        "name" :"Name*",
+        "email": "E-mail*",
+        "cell":"Phone",
+        "company":"Name of your company",
         "message": "Your message",
-        "messageDescription": "Leave a comment...",
-        "ButtonSend": "Send message"
+        "buttonSend": "Send"
     },
     "Footer": {
         "title": "Copyright © 2023 TheHextech | All rights reserved"

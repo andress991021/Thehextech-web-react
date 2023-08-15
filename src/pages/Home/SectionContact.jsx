@@ -24,14 +24,14 @@ export const SectionContact = ({
         <img className="w-full" src={ImageContact} alt="" />
       </div>
       <div className="lg:w-1/2 pt-8 lg:pt-8   p-5 rounded-t-3xl">
-        <h2 className=" text-2xl  font-bold ">{t("main.title")}</h2>
+        <h2 className=" text-2xl  font-bold ">{t("Contact.title")}</h2>
         <form onSubmit={handleSubmit} className="space-y-2 lg:space-y-3 mt-2">
           <div>
             <input
               type="text"
               value={Nombre}
               className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
-              placeholder="Nombre*"
+              placeholder={t("Contact.name")}
               onChange={(e) => setNombre(e.target.value)}
               required
             />
@@ -41,7 +41,7 @@ export const SectionContact = ({
               type="email"
               value={Email}
               className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
-              placeholder="Correo Electronico*"
+              placeholder={t("Contact.email")}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
@@ -60,7 +60,7 @@ export const SectionContact = ({
               type="text"
               value={Empresa}
               className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
-              placeholder="Empresa"
+              placeholder={t("Contact.company")}
               onChange={(e) => setEmpresa(e.target.value)}
             />
           </div>
@@ -69,13 +69,22 @@ export const SectionContact = ({
               value={Mensaje}
               rows="6"
               className="block p-3 w-full border-green bg-blue text-base lg:text-lg  rounded-lg border dark:placeholder-white"
-              placeholder="Message"
+              placeholder={t("Contact.message")}
               onChange={(e) => setMensaje(e.target.value)}
             ></textarea>
           </div>
-          <div className="text-base lg:text-lg  text-right pt-2" type="submit">
-            <Button type="main" name="ENVIAR" rute="" />
-          </div>
+
+          <button
+            className="text-base lg:text-lg  text-right pt-2 "
+            type="submit"
+          >
+            <Button
+              type="main"
+              name={t("Contact.buttonSend")}
+              rute=""
+              size=""
+            />
+          </button>
         </form>
       </div>
     </div>

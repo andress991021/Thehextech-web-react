@@ -11,56 +11,59 @@
         "title": "El futuro sigue en la web",
         "subtitle": "CONSTRUYE TU SUEÑO",
         "description": "Trabaja con nosotros y haz realidad todo tu sueño empresarial.",
-        "buttonContact": "Hablemos",
+        "buttonContact": "Desarrollo Web",
         "titleTwo": "Buscando una aplicación de entrenamiento VR",
         "subtitleTwo": "LO PODEMOS HACER",
         "descriptionTwo": "Trabaja con nosotros y haz realidad toda tu app de formación para mejorar tu negocio.",
-        "buttonContactTwo": "Hablemos"
+        "buttonContactTwo": "Aplicaciones 3D"
     },
     "WebSection": {
-        "title": "Desarrollo Aplicación Web",
-        "description": "En el proceso de creación de una página web, es importante considerar la experiencia del usuario, la accesibilidad y el rendimiento. Siguiendo las mejores prácticas y manteniéndose actualizado con las tecnologías y tendencias de desarrollo web, puede crear una página web de alta calidad que satisfaga las necesidades de su audiencia y logre sus objetivos.",
+        "title": "Desarrollo Páginas Web",
+        "description": "Cómo expertos en desarrollo web, nuestro equipo cuenta con la experiencia y la capacidad para ofrecer una amplia gama de soluciones para tu página web convencional. Nuestra misión es brindar a nuestros clientes productos digitales de calidad que impulsen su presencia en línea y les permitan alcanzar sus objetivos comerciales de manera efectiva. Cuando se trata de páginas web convencionales, nos enorgullecemos de crear sitios web elegantes, funcionales y altamente receptivos que ofrezcan una experiencia de usuario excepcional.",
         "card1": "Trabajamos con las últimas tecnologias web",
         "card2": "Siempre buscamos tu seguridad, y para tu tranquilidad trabajamos con el protocolo [https]",
-        "card3": "Tu sueño hecho realidad, siempre estará disponible para cualquier dispositivo, (móvil/web)",
+        "card3": "Tu sueño hecho realidad, siempre estará disponible para cualquier dispositivo, (móvil/desktop)",
+        "card4": "Cubrimos el soporte técnico de tu página web"
+    },
+    "WebSection2": {
+        "title": "Desarrollo Aplicaciones Web",
+        "description": "Cómo expertos en desarrollo web, nuestro equipo cuenta con la experiencia y la capacidad para ofrecer una amplia gama de soluciones en el campo de las aplicaciones web de alto rendimiento. Nuestra misión es brindar a nuestros clientes productos digitales de calidad que impulsen su presencia en línea. Brindamos aplicaciones web, para recolección de datos, consumo de API's, Bases de datos, obtención de datos en tiempo real. Cuando se trata de aplicaciones web, nos enorgullecemos de crear sitios web elegantes, funcionales y altamente receptivos que ofrezcan una experiencia de usuario excepcional.",
+        "card1": "Trabajamos con las últimas tecnologias web",
+        "card2": "Siempre buscamos tu seguridad, y para tu tranquilidad trabajamos con el protocolo [https]",
+        "card3": "Tu sueño hecho realidad, siempre estará disponible para cualquier dispositivo, (móvil/desktop)",
         "card4": "Cubrimos el soporte técnico de tu página web"
     },
     "3DSection": {
-        "title": "Experiencias de entrenamiento VR",
-        "description": "En el proceso de creación de experiencias de entrenamiento en VR, es importante considerar factores como la experiencia del usuario, la efectividad del aprendizaje y los avances tecnológicos. Siguiendo las mejores prácticas y manteniéndose actualizado con las tecnologías y tendencias de desarrollo de VR.",
+        "title": "Desarrollo de aplicaciones de VR",
+        "description": "Las experiencias de entrenamiento en Realidad Virtual (VR) son simulaciones inmersivas e interactivas diseñadas para proporcionar a los usuarios un entorno de aprendizaje realista. Aprovechando la tecnología de vanguardia de la Realidad Virtual (VR), estamos comprometidos en revolucionar la forma en que las personas aprenden y se entrenan al ofrecer una amplia gama de experiencias de entrenamiento en Realidad Virtual (VR). Nuestras simulaciones inmersivas e interactivas están meticulosamente diseñadas para brindar a los usuarios entornos de aprendizaje realistas que promueven el desarrollo de habilidades mejoradas, la retención de conocimientos y una mejora en las capacidades de toma de decisiones.",
         "card1": "Trabajamos con los últimos motores de desarrollo gráfico",
         "card2": "Trabajamos de la mano de expertos en entrenamiento con realidad virtual",
-        "card3": "Para tu seguridad, realizamos entrega de documentación y capacitación del aplicativo",
+        "card3": "Realizamos entrega de documentación y capacitación del aplicativo",
         "card4": "Contamos con el hardware necesario para el entrenamiento VR"
     },
     "3DSection2": {
-        "title": "Augmented Reality App Development",
-        "description": "En el proceso de creación de experiencias de entrenamiento en AR, es importante considerar factores como la experiencia del usuario, la efectividad del aprendizaje y los avances tecnológicos. Siguiendo las mejores prácticas y manteniéndose actualizado con las tecnologías y tendencias de desarrollo de VR.",
+        "title": "Entornos de Realidad Aumentada",
+        "description": "Nuestro equipo se especializa en la creación de experiencias de escenarios virtuales y gráficas en realidad aumentada (RA). En el ámbito de los escenarios virtuales, creamos entornos inmersivos y envolventes que transportan a los usuarios a mundos virtuales realistas y cautivadores. Ya sea para fines educativos, de entretenimiento o de simulación.",
         "card1": "Trabajamos con los últimos motores de desarrollo gráfico",
         "card2": "Trabajamos de la mano de expertos con tracking y green screen",
-        "card3": "Para tu seguridad, realizamos entrega de documentación y capacitación del aplicativo",
+        "card3": "Para tu seguridad, realizamos entrega de documentación y capacitación",
         "card4": "Contamos con el hardware necesario para el entrenamiento RA"
     },
-    "ourclients": {
-        "title": "Our Clients"
-    },
-    "preContact": {
-        "title": "Let´s build something great!",
-        "description": "We are always avaliable to talk with you",
-        "Button": "Let´s talk"
+    "OurWork": {
+        "title":"Nuestro trabajo",
+        "description":"Nos gustaría mostrarte nuestro video Reel sobre el trabajo profesional que desempeñamos en TheHextech. Disfrútalo y luego contáctanos para hablar sobre tu sueño y cómo juntos lo haremos realidad. Además, si das click en el botón, podrás descargar nuestro portafolio de servicios.",
+        "buttonPortfolio":"Nuestro Portafolio de Servicios"
     },
     "Contact": {
-        "title": "Contact Us",
-        "description": "Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
-        "email": "Your email",
-        "emailDescription": "Hextech@gmail.com",
-        "Subject": "Subject",
-        "SubjectDescription": "Lets us know how we can help you",
-        "message": "Your message",
-        "messageDescription": "Leave a comment...",
-        "ButtonSend": "Send message"
+        "title": "Cuentanos sobre tu sueño:",
+        "name" :"Nombre*",
+        "email": "Correo electronico*",
+        "cell":"Teléfono",
+        "company":"Empresa",
+        "message": "Mensaje",
+        "buttonSend": "Enviar"
     },
     "Footer": {
-        "title": "Copyright © 2023 TheHextech | All rights reserved"
+        "title": "Copyright © 2023 TheHextech | Todos los derechos reservados"
     }
 }

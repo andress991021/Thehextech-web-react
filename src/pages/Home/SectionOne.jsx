@@ -18,7 +18,7 @@ export const SectionOne = () => {
             <h1 className="text-base sm:text-xl lg:text-xl mt-2 mb-5 lg:opacity-0 group-hover:lg:opacity-90 lg:h-0 group-hover:h-fit  font-extralight ">
               {t("main.description")}
             </h1>
-            <Button type="main" name={t("main.buttonContact")} rute="#seccionWeb" />
+            <Button type="main" name={t("main.buttonContact")} rute="#seccionWeb" size="" />
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export const SectionOne = () => {
             <h1 className="text-base sm:text-xl lg:text-xl mt-2 mb-5 lg:opacity-0 group-hover:lg:opacity-90 lg:h-0 group-hover:h-fit font-extralight ">
               {t("main.descriptionTwo")}
             </h1>
-            <Button type="main" name={t("main.buttonContactTwo")} rute="#seccion3D" />
+            <Button type="main" name={t("main.buttonContactTwo")} rute="#seccion3D" size="" />
           </div>
         </div>
       </div>

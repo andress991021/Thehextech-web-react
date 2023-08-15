@@ -26,17 +26,18 @@ export const  Footer = () => {
                         <li className="lg:flex justify-center items-center">
                             <a href="#seccionOurWork" className="mx-6 lg:ml-0 lg:text-center  py-auto flex items text-base font-medium  text-white hover:text-cyan-500">{t("Header.Our Work")}</a>
                         </li>
-                        <li className="lg:flex justify-center items-center">
+                        <li className="lg:flex justify-center items-center mx-6 my-4">
                             <Button
                               type="main"
                               name={t("Header.About Us")}
                               rute="#seccionContact"
+                              size=""
                             />
                         </li>
                     </ul>
                 </div>
-                <hr className="my-6 sm:mx-auto border-gray-400 lg:my-8" />
-                <span className="block text-sm text-white sm:text-center "> <a href="" className="hover:underline"></a> {t("Footer.title")}</span>
+                <hr className="my-6 sm:mx-auto border-gray-400 lg:my-8 " />
+                <span className="block text-sm text-white text-center "> <a href="" className="hover:underline"></a> {t("Footer.title")}</span>
             </div>
         </footer>  
     );
