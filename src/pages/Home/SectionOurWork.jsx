@@ -6,14 +6,16 @@ import Video from "../../assets/Video/reel.mp4"
 
 export const SectionOurWork = () => {
   const { t } = useTranslation();
+
+  
   return (
     <section className="bg-bue">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center">
-          <h2 className="mb-4 text-3xl tracking-tight font-bold sm:text-4xl text-white">
+          <h2 className="mb-4 text-3xl font-bold sm:text-4xl text-white">
           {t("OurWork.title")}
           </h2>
-          <p className="mx-auto mb-8 max-w-2xl font-base  md:mb-12 sm:text-xl text-white">
+          <p className="mx-auto mb-8 max-w-2xl font-extralight  md:mb-12 sm:text-xl text-white">
           {t("OurWork.description")}
           </p>
           <form action="#">

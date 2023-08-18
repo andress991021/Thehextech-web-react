@@ -19,8 +19,8 @@ export const SectionDeveloper = () => {
                 {/*SECTION1*/}
                 <img className="w-full order-1 md:order-1" src={ImageWeb} alt=""/>
                 <div className="mt-4 md:mt-0 order-2 md:order-2">
-                    <h2 className="mb-4 text-4xl text-center lg:text-left   font-bold text-gray-900 dark:text-white">{t("WebSection.title")}</h2>
-                    <p className="mb-6 font-normal md:text-lg text-white">{t("WebSection.description")}</p>
+                    <h2 className="mb-4 text-3xl lg:text-4xl text-center lg:text-left   font-bold text-gray-900 dark:text-white">{t("WebSection.title")}</h2>
+                    <p className="mb-6 mx-1 font-extralight md:text-xl text-white">{t("WebSection.description")}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2  gap-2  ">
                         <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
                             <img src={iconWeb1} alt="" className="w-10 mr-2" />
@@ -44,8 +44,8 @@ export const SectionDeveloper = () => {
                 {/*SECTION2*/}
                 <img className="w-full mt-10 md:mt-0 order-3 md:order-4 " src={ImageWeb2} alt=""/>
                 <div className="mt-4 md:mt-0 order-4 md:order-3">
-                    <h2 className="mb-4 text-4xl text-center lg:text-left  font-bold text-gray-900 dark:text-white">{t("WebSection2.title")}</h2>
-                    <p className="mb-6 font-normal md:text-lg text-white">{t("WebSection2.description")}</p>
+                    <h2 className="mb-4 text-3xl lg:text-4xl text-center lg:text-left  font-bold text-gray-900 dark:text-white">{t("WebSection2.title")}</h2>
+                    <p className="mb-6 mx-1 font-extralight md:text-xl text-white">{t("WebSection2.description")}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2  gap-2  ">
                         <div className="flex items-center bg-black bg-opacity-30 shadow-xl p-5 rounded-2xl">
                             <img src={iconWeb1} alt="" className="w-10 mr-2" />

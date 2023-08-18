@@ -19,7 +19,7 @@
     },
     "WebSection": {
         "title": "Desarrollo Páginas Web",
-        "description": "Cómo expertos en desarrollo web, nuestro equipo cuenta con la experiencia y la capacidad para ofrecer una amplia gama de soluciones para tu página web convencional. Nuestra misión es brindar a nuestros clientes productos digitales de calidad que impulsen su presencia en línea y les permitan alcanzar sus objetivos comerciales de manera efectiva. Cuando se trata de páginas web convencionales, nos enorgullecemos de crear sitios web elegantes, funcionales y altamente receptivos que ofrezcan una experiencia de usuario excepcional.",
+        "description": "Expertos en desarrollo web, creamos páginas elegantes y funcionales que potencian tu presencia en línea y transformamos tus metas comerciales en realidades digitales de calidad.",
         "card1": "Trabajamos con las últimas tecnologias web",
         "card2": "Siempre buscamos tu seguridad, y para tu tranquilidad trabajamos con el protocolo [https]",
         "card3": "Tu sueño hecho realidad, siempre estará disponible para cualquier dispositivo, (móvil/desktop)",
@@ -27,7 +27,7 @@
     },
     "WebSection2": {
         "title": "Desarrollo Aplicaciones Web",
-        "description": "Cómo expertos en desarrollo web, nuestro equipo cuenta con la experiencia y la capacidad para ofrecer una amplia gama de soluciones en el campo de las aplicaciones web de alto rendimiento. Nuestra misión es brindar a nuestros clientes productos digitales de calidad que impulsen su presencia en línea. Brindamos aplicaciones web, para recolección de datos, consumo de API's, Bases de datos, obtención de datos en tiempo real. Cuando se trata de aplicaciones web, nos enorgullecemos de crear sitios web elegantes, funcionales y altamente receptivos que ofrezcan una experiencia de usuario excepcional.",
+        "description": "Transformamos tu presencia digital con aplicativos web de alto rendimiento. Desde recolección de datos hasta consumo de API y conexiones en tiempo real, creamos soluciones funcionales y elegantes con experiencia de usuario excepcional.",
         "card1": "Trabajamos con las últimas tecnologias web",
         "card2": "Siempre buscamos tu seguridad, y para tu tranquilidad trabajamos con el protocolo [https]",
         "card3": "Tu sueño hecho realidad, siempre estará disponible para cualquier dispositivo, (móvil/desktop)",
@@ -35,7 +35,7 @@
     },
     "3DSection": {
         "title": "Desarrollo de aplicaciones de VR",
-        "description": "Las experiencias de entrenamiento en Realidad Virtual (VR) son simulaciones inmersivas e interactivas diseñadas para proporcionar a los usuarios un entorno de aprendizaje realista. Aprovechando la tecnología de vanguardia de la Realidad Virtual (VR), estamos comprometidos en revolucionar la forma en que las personas aprenden y se entrenan al ofrecer una amplia gama de experiencias de entrenamiento en Realidad Virtual (VR). Nuestras simulaciones inmersivas e interactivas están meticulosamente diseñadas para brindar a los usuarios entornos de aprendizaje realistas que promueven el desarrollo de habilidades mejoradas, la retención de conocimientos y una mejora en las capacidades de toma de decisiones.",
+        "description": "Sumérgete en la innovación con nuestras experiencias de entrenamiento en Realidad Virtual (VR). Creamos escenarios inmersivos e interactivos a medida para potenciar habilidades, optimizar decisiones y ofrecer soluciones personalizadas que marcan la diferencia.",
         "card1": "Trabajamos con los últimos motores de desarrollo gráfico",
         "card2": "Trabajamos de la mano de expertos en entrenamiento con realidad virtual",
         "card3": "Realizamos entrega de documentación y capacitación del aplicativo",
@@ -43,7 +43,7 @@
     },
     "3DSection2": {
         "title": "Entornos de Realidad Aumentada",
-        "description": "Nuestro equipo se especializa en la creación de experiencias de escenarios virtuales y gráficas en realidad aumentada (RA). En el ámbito de los escenarios virtuales, creamos entornos inmersivos y envolventes que transportan a los usuarios a mundos virtuales realistas y cautivadores. Ya sea para fines educativos, de entretenimiento o de simulación.",
+        "description": "Transformamos tus expectativas con experiencias de escenarios virtuales y gráficos de realidad aumentada (RA), incluso en tiempo real. Diseñamos entornos inmersivos que te transportan a mundos cautivadores y realistas, abarcando educación, entretenimiento y simulación.",
         "card1": "Trabajamos con los últimos motores de desarrollo gráfico",
         "card2": "Trabajamos de la mano de expertos con tracking y green screen",
         "card3": "Para tu seguridad, realizamos entrega de documentación y capacitación",
@@ -51,7 +51,7 @@
     },
     "OurWork": {
         "title":"Nuestro trabajo",
-        "description":"Nos gustaría mostrarte nuestro video Reel sobre el trabajo profesional que desempeñamos en TheHextech. Disfrútalo y luego contáctanos para hablar sobre tu sueño y cómo juntos lo haremos realidad. Además, si das click en el botón, podrás descargar nuestro portafolio de servicios.",
+        "description":"Te invitamos a disfrutar nuestro video Reel que destaca el trabajo profesional realizado en TheHextech. Después de verlo, contáctanos para hablar sobre tus sueños y cómo podemos hacerlos realidad juntos. ¡Además, si haces clic en el botón, podrás descargar nuestro portafolio de servicios!",
         "buttonPortfolio":"Nuestro Portafolio de Servicios"
     },
     "Contact": {
