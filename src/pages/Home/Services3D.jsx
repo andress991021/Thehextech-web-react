@@ -15,14 +15,14 @@ export const Section3D = () => {
   const { t } = useTranslation();
   return (
     <section className="bg-blue bg-cover bg-fixed  bg-opacity-80">
-      <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+      <div className="gap-8 items-center px-4 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2  lg:px-6">
         {/*SECTION1*/}
         <img className="w-full order-1 md:order-1" src={Image3D} alt="" />
         <div className="mt-4 md:mt-0 order-2 md:order-2">
-          <h2 className="mb-4 text-4xl text-center lg:text-left  font-bold  text-white">
+          <h2 className="mb-4 text-3xl lg:text-4xl text-center lg:text-left  font-bold  text-white">
             {t("3DSection.title")}
           </h2>
-          <p className="mb-6 font-normal md:text-lg text-white">
+          <p className="mb-6 mx-1 font-extralight md:text-xl text-white">
             {t("3DSection.description")}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2  gap-2  ">
@@ -60,10 +60,10 @@ export const Section3D = () => {
           alt=""
         />
         <div className="mt-4 md:mt-0 order-4 md:order-3">
-          <h2 className="mb-4 text-4xl  font-bold text-white">
+          <h2 className="mb-4 text-3xl lg:text-4xl text-center md:text-left  font-bold text-white">
             {t("3DSection2.title")}
           </h2>
-          <p className="mb-6 font-normal md:text-lg text-white">
+          <p className="mb-6 mx-1 font-extralight md:text-xl text-white">
             {t("3DSection2.description")}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2  gap-2  ">
